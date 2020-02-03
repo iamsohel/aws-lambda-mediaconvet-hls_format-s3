@@ -31,3 +31,8 @@ CORS
     <AllowedHeader>*</AllowedHeader>
 </CORSRule>
 </CORSConfiguration>
+
+
+copy one s3 bucket to another
+
+aws s3 sync s3://source-bucket/source-path s3://destination-bucket/destination-path
